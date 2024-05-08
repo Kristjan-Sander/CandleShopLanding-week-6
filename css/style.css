@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    line-height: 2;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    height: 90vh;
+    background-image: linear-gradient(to bottom right, #ffffff88, #1b0f068c) , url('../img/pilt\ 1.webp');
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-image__text a {
+    border-bottom: 0.2rem solid #9ba44f;
+    color: #bca42c;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.btn:active {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(5px); 
+}
+
+.intro-image .btn:hover {
+background-color: rgba(5, 36, 7, 0.384);
+}
+
+.intro-text {
+    align-items: center;
+    background-color: #bda946;
+    height: 450px;
+    margin-top: -5rem;
+    justify-content: center;
+    display: flex;
+    clip-path: polygon(50% 5%, 100% 0, 100% 25%, 100% 100%, 80% 90%, 50% 100%, 32% 90%, 0 100%, 0 0, 23% 4%);
+}
+
+.intro-text h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 5px rgb(13, 14, 11)
+}
+
+.intro-text__textbox {
+    padding: 30%;
+}
+
+.text-solid {
+    font-size: 2rem;
+    color: antiquewhite;
+    text-shadow: 0 0 12px #000000;
+}
+
+.packaging-image {
+    align-items: center;
+    background-attachment: fixed;
+    height: 80vh;
+    background-image: linear-gradient(to bottom right, #a3a3a3a9, #29282877), url('../img/pilt\ 2.webp');
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -5rem;
+    display: flex;
+    
+}
+
+.packaging-image a{
+    border-bottom: 0.2rem solid #4c6f79;
+    color: #e76c15;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.packaging-image .btn:hover {
+    background-color: rgba(31, 44, 32, 0.244);
+}
+
+.packaging-text {
+    align-items: center;
+    background-color: #46a76d;
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    margin-top: -5rem;
+    clip-path: polygon(58% 0, 100% 0, 100% 35%, 100% 95%, 85% 97%, 50% 100%, 15% 100%, 0 100%, 0 0, 23% 4%);
+}
+.packaging-text h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 5px rgb(13, 14, 11)
+}
+
+.packaging_text__textbox {
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: antiquewhite;
+    text-shadow: 0 0 12px #000000;
+    padding: 30%;
+}
+
+.tutorials-image {
+    align-items: center;
+    background-attachment: fixed;
+    height: 65vh;
+    background-image: linear-gradient(to bottom right, #ffffff88, #1b0f068c) , url('../img/pilt\ 3.webp');
+    background-size: cover;
+    margin-top: -3rem;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.tutorials-image__text a {
+    border-bottom: 0.2rem solid #b86b3c;
+    color: #84bc72;
+    display: inline-block;
+    font-size: 3rem;
+    margin-top: 7.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}   
+
+.tutorials-image .btn:hover {
+    background-color: #ac795970;
+}
+
+.footer {
+    background-color: #3d3a36;
+    text-align: center;
+    
+}
+
+.contact {
+    font-size: 3rem;
+    
+}
+
+.contact ul li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: rgb(183, 122, 122);
+}
+
+.contact ul li:hover {
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+
+.contact ul li a:hover {
+    color: white;
+}
+
+.contact ul li a:hover {
+    transform: translateY(5px); 
+}
+
+.copyright {
+    color: rgb(183, 122, 122);
+}
